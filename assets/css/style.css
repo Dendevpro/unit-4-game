@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-responsive {
+    background-image: url("../images/bg-cave.jpg");
+    -webkit-background-size: cover;
+}
+
+.jumbotron {
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.display-4 {
+    font-family: 'Dokdo', cursive;
+    font-size: 100px;
+    color: rgb(103, 32, 0);
+}
+
+.my-3 {
+    width: 50%;
+}
+
+/* The Modal (background) */
+.modal-lg {
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+li {
+    text-align: left;
+}
+
+tr {
+    text-align: center;
+}
+
+th{
+    font-size: 15px;
+}
+
+.col-1 {
+    text-align: left;
+}
+
+.table {
+    color: white;
+    background: #17A2C5;
+    margin-bottom: 70px;
+}
+
+
+.gem {
+    width:70%;
+    margin-bottom: 30px;
+}
+
+.gem:active {
+    transform: translateY(4px);
+  }
+
+button {
+    background: none;
+    border: none;
+}
+
+#crystals-row {
+    align-items: baseline;
+    text-align: center;   
+}
+
+.fixed-bottom {
+    background: #e8ecef;
+    color: #555;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+#my-social-media {
+    opacity: 0.4;
+}
+
+/* Media Query */
+
+/* Small devices (portrait phones, 576px and smaller) */
+@media (max-width: 576px) {
+    #crystals-row {
+        height: 100px;
+        align-items: baseline;
+        text-align: center;  
+    }
+    #pinkGem,
+    #purpleGem,
+    #yellowGem,
+    #blueGem {
+        margin-bottom: 80px;
+    }
+    .display-4 {
+        font-size: 80px;
+        line-height: 0.8;
+    }
+    .gem {
+        width:30%;
+        margin-bottom: 30px;
+    }
+
+    #output {
+        width: 100%;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #crystals-row {
+        height: 158px;
+    }
+    .display-4 {
+        font-size: 80px;
+        line-height: 0.8;
+    }
+    .gem {
+        width:100%;
+        margin-bottom: 30px;
+    }
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #crystals-row {
+        height: 200px;
+    }
+    .display-4 {
+        font-size: 80px;
+    }
+}
+
